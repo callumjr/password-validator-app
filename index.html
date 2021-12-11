@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validator</title>
+</head>
+<body>
+    <h1>Password Validator</h1>
+    <div class="password-div">
+        <input type="password" class="password">
+        <div class="btn-div">
+            <label for="" class="check-label">Show Password</label>
+            <input type="checkbox" class="reveal-box" onclick="toggle()"></input>
+        </div>
+    </div>
+    <div class="submit-div">
+        <input type="submit" class="submit-btn" value="test">
+    </div>
+    <div class="validation">
+        <h1 class="success hidden">Success</h1>
+    </div>
+    <h1 class="fail hidden">Fail</h1>
+    <p class="requirements hidden">Your password should be at least 8 characters, contain 1 capital 1 digit and 1 special character.</p>
+    <script src="/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+:root {
+	--primary-color: rgb(28, 66, 146);
+}
+
+body {
+	background-color: rgb(28, 66, 146);
+}
+
+h1 {
+	color: azure;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+input {
+	margin: 40px 10px 0px 0px;
+}
+
+.password-div {
+	width: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.btn-div {
+}
+
+.reveal-box {
+	color: var(--primary-color);
+	background-color: azure;
+	padding: 0px;
+	margin-left: 5px;
+}
+
+.check-label {
+	color: azure;
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.submit-div {
+	width: 100px;
+	margin: 0 auto 0 auto;
+}
+
+.success {
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	color: rgb(94, 237, 66);
+}
+
+.fail {
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	color: rgb(242, 67, 67);
+}
+
+.requirements {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: rgb(242, 67, 67);
+	width: 250px;
+	margin: 0 auto;
+}
+
+.hidden {
+	display: none;
+}
